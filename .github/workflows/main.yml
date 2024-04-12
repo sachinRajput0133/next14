@@ -46,4 +46,4 @@ jobs:
           github-token: ${{ secrets.TOKEN }}
           stale-process-killing: true
           branch: gh-pages  # Change this to the branch you use for deployments (e.g., main)
-          publish-dir: ./build  # Change this to your build output directory
+          publish-dir: .next  # Change this to your build output directory
